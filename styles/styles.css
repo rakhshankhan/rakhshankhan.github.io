@@ -98,6 +98,7 @@ img {
   color: #22333b;
   cursor: default;
   flex-shrink: 0;
+  max-width: 850px;
 }
 
 h2 {
@@ -118,6 +119,12 @@ p {
 }
 
 footer {
+  /* grid-row: 3/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap; */
   font-size: 15px;
   font-weight: bold;
   letter-spacing: 0.5px;
