@@ -98,7 +98,7 @@ img {
   color: #22333b;
   cursor: default;
   flex-shrink: 0;
-  max-width: 850px;
+  max-width: 1000px;
 }
 
 h2 {
@@ -107,13 +107,13 @@ h2 {
 }
 
 #degree-text {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
   line-height: 40px;
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   line-height: 30px;
 }
@@ -132,4 +132,5 @@ footer {
   bottom: 0px;
   transform: translate(-50%, 0);
   left: 50%;
+  cursor: default;
 }
