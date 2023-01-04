@@ -1,6 +1,8 @@
 body {
   font-family: "Courier New", Courier, monospace;
   background-color: #eae0d5;
+  position: relative;
+  min-height: 90vh;
 }
 
 ::selection {
@@ -66,8 +68,8 @@ i:hover {
   display: inline-block;
   margin-top: -2vw;
   /* border: 2px solid green; */
-  /* margin-top: 10vh;
-  margin-left: 10vw; */
+  /* margin-top: 10vh;  */
+  /* margin-left: 30px; */
   max-width: 500px;
 }
 
@@ -85,7 +87,6 @@ img {
   margin-top: -13px;
   margin-left: 13px;
   height: 375px;
-  /* width: 25vw; */
   max-width: 500px;
   border-radius: 12px;
 }
@@ -93,19 +94,18 @@ img {
 .text-container {
   /* border: 2px solid red; */
   margin-top: -50px;
-  margin-left: 120px;
+  padding-left: 120px;
   color: #22333b;
   cursor: default;
+  flex-shrink: 0;
 }
 
 h2 {
-  /* border: 2px solid red; */
   font-size: 32px;
   font-weight: bold;
 }
 
 #degree-text {
-  /* border: 2px solid red; */
   font-size: 22px;
   font-weight: bold;
   line-height: 40px;
@@ -113,20 +113,22 @@ h2 {
 
 p {
   font-size: 20px;
-  /* font-size: 1em; */
   font-weight: bold;
   line-height: 30px;
-  /* text-align: justify; */
 }
 
 footer {
-  grid-row: 3/4;
+  /* grid-row: 3/4;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-wrap: wrap; */
   font-size: 15px;
-  transform: translate(0, 100px);
   font-weight: bold;
   letter-spacing: 0.5px;
+  position: absolute;
+  bottom: 0px;
+  transform: translate(-50%, 0);
+  left: 50%;
 }
