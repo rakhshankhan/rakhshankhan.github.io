@@ -118,12 +118,6 @@ p {
 }
 
 footer {
-  /* grid-row: 3/4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-wrap: wrap; */
   font-size: 15px;
   font-weight: bold;
   letter-spacing: 0.5px;
