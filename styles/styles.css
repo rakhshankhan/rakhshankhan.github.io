@@ -51,24 +51,29 @@ i:hover {
 }
 
 .text-image-container {
-  /* border: 2px solid red; */
+  /* border: 2px solid blue; */
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  margin-top: 15vh;
-  margin-left: 10vw;
+  justify-content: center;
+  margin-top: 120px;
+  row-gap: 90px;
+  /* margin-left: 50px; */
+  /* margin-left: 5vw; */
 }
 
 .image-container {
   display: inline-block;
   margin-top: -2vw;
-  /* border: 2px solid red; */
+  /* border: 2px solid green; */
   /* margin-top: 10vh;
   margin-left: 10vw; */
+  max-width: 500px;
 }
 
 #img-background-box {
-  height: 25vw;
-  width: 25vw;
+  height: 375px;
+  max-width: 375px;
   background-color: #22333b;
   border-radius: 12px;
   box-shadow: rgba(31, 51, 59, 0.4) -5px 5px, rgba(31, 51, 59, 0.3) -10px 10px,
@@ -77,17 +82,18 @@ i:hover {
 }
 
 img {
-  margin-top: -1.75vh;
-  margin-left: 1vw;
-  height: 25vw;
-  width: 25vw;
+  margin-top: -13px;
+  margin-left: 13px;
+  height: 375px;
+  /* width: 25vw; */
+  max-width: 500px;
   border-radius: 12px;
 }
 
 .text-container {
   /* border: 2px solid red; */
-  margin-top: -8.8vh;
-  margin-left: 8vw;
+  margin-top: -50px;
+  margin-left: 120px;
   color: #22333b;
   cursor: default;
 }
@@ -107,19 +113,11 @@ h2 {
 
 p {
   font-size: 20px;
+  /* font-size: 1em; */
   font-weight: bold;
   line-height: 30px;
   /* text-align: justify; */
 }
-
-/* #copyright {
-  font-size: 12px;
-  position: relative;
-  bottom: 10px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  font-weight: bold;
-} */
 
 footer {
   grid-row: 3/4;
@@ -128,42 +126,7 @@ footer {
   align-items: center;
   text-align: center;
   font-size: 15px;
-  transform: translate(0, 135px);
+  transform: translate(0, 100px);
   font-weight: bold;
   letter-spacing: 0.5px;
-}
-
-@media screen and (max-width: 1172px) {
-  /* header {
-    flex-direction: column;
-  } */
-
-  .text-image-container {
-    flex-direction: column;
-  }
-
-  .image-container {
-    /* border: 2px solid red; */
-    margin-bottom: 70px;
-    margin-top: -2vh;
-  }
-
-  img {
-    margin-left: 1.5vw;
-    margin-top: -1vh;
-    width: 50vw;
-    height: 50vw;
-  }
-
-  #img-background-box {
-    width: 50vw;
-    height: 50vw;
-  }
-
-  .text-container {
-    margin-top: -5vh;
-    margin-left: 8vw;
-    color: #22333b;
-    cursor: default;
-  }
 }
