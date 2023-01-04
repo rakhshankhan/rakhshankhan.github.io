@@ -133,16 +133,10 @@ footer {
   letter-spacing: 0.5px;
 }
 
-@media screen and (max-width: 600px) {
-  header {
+@media screen and (max-width: 1172px) {
+  /* header {
     flex-direction: column;
-  }
-
-  .social-buttons {
-    margin-right: 0vw;
-    font-size: 25px;
-    margin-top: 2.5vh;
-  }
+  } */
 
   .text-image-container {
     flex-direction: column;
